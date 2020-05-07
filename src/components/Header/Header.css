@@ -1,0 +1,53 @@
+.Header_mainIcon{
+    height: 60px;
+}
+
+a.Header_loginButton{
+    background:#63d063;
+    color: white;
+    border:2px solid #63d063;
+    width: 148px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+a.Header_signupButton{
+    color:#63d063;
+    background-color: white;
+    border:2px solid #63d063;
+    width: 148px;
+}
+
+a.Header_hireButton{
+    margin-right: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.Header_bottomDrawerImg{
+    margin-left: 20%;
+    width: 90px;
+}
+
+ul.Header_bottomDrawer{
+    margin-top: auto;
+}
+.header_navup{
+    background: #f7f8f8;
+    color: #252525;
+}
+/* .header_navlist{
+    background: whitesmoke;
+    border-radius: 0px 22px 22px 0px;
+    margin-bottom: 4px;
+    margin-left: -3%;
+} */
+
+@media screen and (min-width: 900px){
+    .Header_mainIcon{
+        height: 65px;
+    }    
+    .Header_right{
+        margin-right: 120px;
+    }
+}
+

@@ -1,0 +1,30 @@
+
+.GenericNavBar_right{
+    margin-left: auto;
+}
+
+header.GenericNavBar_root{
+    flex-grow: 1;
+    /* background-color: transparent; */
+    color: #5aa7e4;
+    /* position: absolute; */
+    /* display: flex; */
+}
+.GenericNavBar_left{
+    display: flex;
+    color: dimgray;
+}
+
+.GenericNavBar_menuButton{
+    margin-right: 2;
+}
+
+@media screen and (min-width: 900px){
+    .GenericNavBar_left{
+        margin-left: 120px;
+    }    
+    .GenericNavBar_right{
+        margin-right: 120px;
+    }
+}
+
