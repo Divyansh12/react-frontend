@@ -12,7 +12,7 @@ function App() {
       <div className="App">
         <Suspense fallback={<Loading />}>
           <Switch>
-            <Route exact path="/form" component={LandingPage} />
+            <Route exact path="/" component={LandingPage} />
           </Switch>
         </Suspense>
       </div>
