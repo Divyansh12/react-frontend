@@ -8,7 +8,7 @@ const LandingPage = lazy(()=> import("./pages/LandingPage/LandingPage"))
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter>
       <div className="App">
         <Suspense fallback={<Loading />}>
           <Switch>
